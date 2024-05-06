@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="Login Page T(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="errorValidaionG"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SeleniumTestNG_F_De.ErrorValidation2T">
+        <methods>
+          <include name="submitOrder"/>
+          <include name="closeProgram"/>
+          <include name="testNGTest"/>
+        </methods>
+      </class> <!-- SeleniumTestNG_F_De.ErrorValidation2T -->
+    </classes>
+  </test> <!-- Login Page T(failed) -->
+</suite> <!-- Failed suite [Suite] -->

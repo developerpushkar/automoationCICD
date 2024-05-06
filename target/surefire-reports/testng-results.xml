@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-24T07:14:11 IST" name="Suite" finished-at="2024-04-24T07:14:38 IST" duration-ms="26428">
+    <groups>
+      <group name="purchaseG">
+        <method signature="loginPageT.testNGTest(java.util.HashMap)[pri:0, instance:SeleniumTestNG_F_De.loginPageT@5db6b9cd]" name="testNGTest" class="SeleniumTestNG_F_De.loginPageT"/>
+      </group> <!-- purchaseG -->
+      <group name="errorValidaionG">
+        <method signature="ErrorValidation2T.testNGTest()[pri:0, instance:SeleniumTestNG_F_De.ErrorValidation2T@268f106e]" name="testNGTest" class="SeleniumTestNG_F_De.ErrorValidation2T"/>
+      </group> <!-- errorValidaionG -->
+    </groups>
+    <test started-at="2024-04-24T07:14:11 IST" name="Login Page T" finished-at="2024-04-24T07:14:24 IST" duration-ms="12324">
+      <class name="SeleniumTestNG_F_De.ErrorValidation2T">
+        <test-method is-config="true" signature="submitOrder()[pri:0, instance:SeleniumTestNG_F_De.ErrorValidation2T@268f106e]" started-at="2024-04-24T07:14:11 IST" name="submitOrder" finished-at="2024-04-24T07:14:17 IST" duration-ms="5344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method signature="productErrorValidationM()[pri:0, instance:SeleniumTestNG_F_De.ErrorValidation2T@268f106e]" started-at="2024-04-24T07:14:17 IST" name="productErrorValidationM" finished-at="2024-04-24T07:14:19 IST" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidationM -->
+        <test-method is-config="true" signature="closeProgram()[pri:0, instance:SeleniumTestNG_F_De.ErrorValidation2T@268f106e]" started-at="2024-04-24T07:14:19 IST" name="closeProgram" finished-at="2024-04-24T07:14:19 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeProgram -->
+        <test-method is-config="true" signature="submitOrder()[pri:0, instance:SeleniumTestNG_F_De.ErrorValidation2T@268f106e]" started-at="2024-04-24T07:14:19 IST" name="submitOrder" finished-at="2024-04-24T07:14:22 IST" duration-ms="3250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method signature="testNGTest()[pri:0, instance:SeleniumTestNG_F_De.ErrorValidation2T@268f106e]" started-at="2024-04-24T07:14:22 IST" name="testNGTest" finished-at="2024-04-24T07:14:24 IST" duration-ms="1072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNGTest -->
+        <test-method is-config="true" signature="closeProgram()[pri:0, instance:SeleniumTestNG_F_De.ErrorValidation2T@268f106e]" started-at="2024-04-24T07:14:24 IST" name="closeProgram" finished-at="2024-04-24T07:14:24 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeProgram -->
+      </class> <!-- SeleniumTestNG_F_De.ErrorValidation2T -->
+    </test> <!-- Login Page T -->
+    <test started-at="2024-04-24T07:14:11 IST" name="Error Validation" finished-at="2024-04-24T07:14:38 IST" duration-ms="26428">
+      <class name="SeleniumTestNG_F_De.loginPageT">
+        <test-method is-config="true" signature="submitOrder()[pri:0, instance:SeleniumTestNG_F_De.loginPageT@5db6b9cd]" started-at="2024-04-24T07:14:12 IST" name="submitOrder" finished-at="2024-04-24T07:14:18 IST" duration-ms="5777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method signature="testNGTest(java.util.HashMap)[pri:0, instance:SeleniumTestNG_F_De.loginPageT@5db6b9cd]" started-at="2024-04-24T07:14:18 IST" name="testNGTest" data-provider="getData" finished-at="2024-04-24T07:14:21 IST" duration-ms="3284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Kishansingh1, email=ssol@gmail.com, prodS=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNGTest -->
+        <test-method is-config="true" signature="closeProgram()[pri:0, instance:SeleniumTestNG_F_De.loginPageT@5db6b9cd]" started-at="2024-04-24T07:14:21 IST" name="closeProgram" finished-at="2024-04-24T07:14:21 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeProgram -->
+        <test-method is-config="true" signature="submitOrder()[pri:0, instance:SeleniumTestNG_F_De.loginPageT@5db6b9cd]" started-at="2024-04-24T07:14:21 IST" name="submitOrder" finished-at="2024-04-24T07:14:25 IST" duration-ms="3326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method signature="testNGTest(java.util.HashMap)[pri:0, instance:SeleniumTestNG_F_De.loginPageT@5db6b9cd]" started-at="2024-04-24T07:14:25 IST" name="testNGTest" data-provider="getData" finished-at="2024-04-24T07:14:28 IST" duration-ms="3869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Kishansingh1, email=kishan@gmail.com, prodS=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNGTest -->
+        <test-method is-config="true" signature="closeProgram()[pri:0, instance:SeleniumTestNG_F_De.loginPageT@5db6b9cd]" started-at="2024-04-24T07:14:28 IST" name="closeProgram" finished-at="2024-04-24T07:14:29 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeProgram -->
+        <test-method is-config="true" signature="submitOrder()[pri:0, instance:SeleniumTestNG_F_De.loginPageT@5db6b9cd]" started-at="2024-04-24T07:14:29 IST" name="submitOrder" finished-at="2024-04-24T07:14:32 IST" duration-ms="3490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method signature="verifyProd(java.util.HashMap)[pri:0, instance:SeleniumTestNG_F_De.loginPageT@5db6b9cd]" started-at="2024-04-24T07:14:32 IST" name="verifyProd" data-provider="getData" finished-at="2024-04-24T07:14:33 IST" depends-on-methods="SeleniumTestNG_F_De.loginPageT.testNGTest" duration-ms="848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Kishansingh1, email=ssol@gmail.com, prodS=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProd -->
+        <test-method is-config="true" signature="closeProgram()[pri:0, instance:SeleniumTestNG_F_De.loginPageT@5db6b9cd]" started-at="2024-04-24T07:14:33 IST" name="closeProgram" finished-at="2024-04-24T07:14:33 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeProgram -->
+        <test-method is-config="true" signature="submitOrder()[pri:0, instance:SeleniumTestNG_F_De.loginPageT@5db6b9cd]" started-at="2024-04-24T07:14:33 IST" name="submitOrder" finished-at="2024-04-24T07:14:36 IST" duration-ms="3425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method signature="verifyProd(java.util.HashMap)[pri:0, instance:SeleniumTestNG_F_De.loginPageT@5db6b9cd]" started-at="2024-04-24T07:14:36 IST" name="verifyProd" data-provider="getData" finished-at="2024-04-24T07:14:38 IST" depends-on-methods="SeleniumTestNG_F_De.loginPageT.testNGTest" duration-ms="1132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Kishansingh1, email=kishan@gmail.com, prodS=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProd -->
+        <test-method is-config="true" signature="closeProgram()[pri:0, instance:SeleniumTestNG_F_De.loginPageT@5db6b9cd]" started-at="2024-04-24T07:14:38 IST" name="closeProgram" finished-at="2024-04-24T07:14:38 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeProgram -->
+      </class> <!-- SeleniumTestNG_F_De.loginPageT -->
+    </test> <!-- Error Validation -->
+  </suite> <!-- Suite -->
+</testng-results>
