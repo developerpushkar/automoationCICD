@@ -19,6 +19,7 @@ public class standAloneTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+                // Modifying to test CICD
 
 		String prodS = "ZARA COAT 3";
 		boolean cartClicked = false;
